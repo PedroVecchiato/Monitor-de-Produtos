@@ -54,6 +54,11 @@ Clique em OK para finalizar.
 Observações:
 Certifique-se de que o script atualizar_planilha.py está no caminho correto.
 
+OU
+
+Use o agendar_codigo (basta mudar a 9° linha com o horario desejado)
+desta forma a planilha será atualizada, no entanto sera necessario deixar o código aberto em segundo plano.
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Este projeto foi criado com fins estritamente educacionais, como forma de consolidar meus aprendizados em:
@@ -67,5 +72,3 @@ Automação com arquivos Excel/CSV
 Aviso legal
 Este projeto não possui qualquer afiliação com Amazon, Magalu ou Mercado Livre.
 Todos os dados são públicos e obtidos para fins didáticos.
-
-
