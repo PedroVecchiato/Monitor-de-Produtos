@@ -1,0 +1,8 @@
+*.exe
+dist/
+build/
+.venv/
+__pycache__/
+*.spec
+*.csv
+*.xlsx
