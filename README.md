@@ -29,6 +29,32 @@ Screenshot da Interface:
 <img width="321" height="399" alt="Captura de tela 2025-08-06 013001" src="https://github.com/user-attachments/assets/f05ed071-1a49-4f69-ad20-193348b85fb6" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+Se quiser que a planilha com os preços dos produtos seja atualizada automaticamente todos os dias, você pode usar o Agendador de Tarefas do Windows:
+
+ Passo a passo:
+
+No menu Iniciar, pesquise por "Agendador de Tarefas" e abra.
+Clique em "Criar Tarefa...".
+Na aba Geral:
+Dê um nome (ex: Atualizar Planilha de Produtos).
+Marque "Executar com privilégios mais altos".
+Na aba Disparadores (Triggers):
+Clique em "Novo..." e defina o horário diário em que deseja atualizar.
+Na aba Ações:
+Clique em "Nova...".
+Em "Programa/script", selecione o executável do Python (ex: C:\Users\SeuNome\AppData\Local\Programs\Python\PythonXX\python.exe).
+Em "Argumentos", adicione o caminho do script:
+
+plaintext
+Copiar
+Editar
+"C:\caminho\para\seu\script\atualizar_planilha.py"
+Clique em OK para finalizar.
+
+Observações:
+Certifique-se de que o script atualizar_planilha.py está no caminho correto.
+
+---------------------------------------------------------------------------------------------------------------------------------
 
 Este projeto foi criado com fins estritamente educacionais, como forma de consolidar meus aprendizados em:
 
@@ -41,6 +67,5 @@ Automação com arquivos Excel/CSV
 Aviso legal
 Este projeto não possui qualquer afiliação com Amazon, Magalu ou Mercado Livre.
 Todos os dados são públicos e obtidos para fins didáticos.
-
 
 
