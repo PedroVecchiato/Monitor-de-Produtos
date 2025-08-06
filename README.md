@@ -72,3 +72,5 @@ Automação com arquivos Excel/CSV
 Aviso legal
 Este projeto não possui qualquer afiliação com Amazon, Magalu ou Mercado Livre.
 Todos os dados são públicos e obtidos para fins didáticos.
+
+Caso queira Baixar um arquivo executavel afim de facilitar o processo aqui esta o link para o release: [Releases](https://github.com/PedroVecchiato/Monitor-de-Produtos/releases).
